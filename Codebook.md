@@ -1,36 +1,53 @@
-"x"
-"1" "Subject"
-"2" "Activity_Description"
-"3" "Average-TimeBodyAccMeanX"
-"4" "Average-TimeBodyAccMeanY"
-"5" "Average-TimeBodyAccMeanZ"
-"6" "Average-TimeBodyAccStdDevX"
-"7" "Average-TimeBodyAccStdDevY"
-"8" "Average-TimeBodyAccStdDevZ"
-"9" "Average-TimeGravityAccMeanX"
-"10" "Average-TimeGravityAccMeanY"
-"11" "Average-TimeGravityAccMeanZ"
-"12" "Average-TimeGravityAccStdDevX"
-"13" "Average-TimeGravityAccStdDevY"
-"14" "Average-TimeGravityAccStdDevZ"
-"15" "Average-TimeBodyAccJerkMeanX"
-"16" "Average-TimeBodyAccJerkMeanY"
-"17" "Average-TimeBodyAccJerkMeanZ"
-"18" "Average-TimeBodyAccJerkStdDevX"
-"19" "Average-TimeBodyAccJerkStdDevY"
-"20" "Average-TimeBodyAccJerkStdDevZ"
-"21" "Average-TimeBodyGyroMeanX"
-"22" "Average-TimeBodyGyroMeanY"
-"23" "Average-TimeBodyGyroMeanZ"
-"24" "Average-TimeBodyGyroStdDevX"
-"25" "Average-TimeBodyGyroStdDevY"
-"26" "Average-TimeBodyGyroStdDevZ"
-"27" "Average-TimeBodyGyroJerkMeanX"
-"28" "Average-TimeBodyGyroJerkMeanY"
-"29" "Average-TimeBodyGyroJerkMeanZ"
-"30" "Average-TimeBodyGyroJerkStdDevX"
-"31" "Average-TimeBodyGyroJerkStdDevY"
-"32" "Average-TimeBodyGyroJerkStdDevZ"
+# Code Book
+
+## Subject and Activity
+
+These variables identify the unique subject/activity pair the variables relate to:
+
+ - Subject: the integer subject ID.
+ - Activity: the string activity name:
+  - Walking
+  - Walking Upstairs
+  - Walking Downstairs
+  - Sitting
+  - Standing
+  - Laying
+
+
+All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name. All values are floating point numbers.
+----
+- "Subject"
+- "Activity_Description"
+- "Average-TimeBodyAccMeanX"
+- "Average-TimeBodyAccMeanY"
+- "Average-TimeBodyAccMeanZ"
+- "Average-TimeBodyAccStdDevX"
+- "Average-TimeBodyAccStdDevY"
+- "Average-TimeBodyAccStdDevZ"
+- "Average-TimeGravityAccMeanX"
+- "Average-TimeGravityAccMeanY"
+- "Average-TimeGravityAccMeanZ"
+- "Average-TimeGravityAccStdDevX"
+- "Average-TimeGravityAccStdDevY"
+- "Average-TimeGravityAccStdDevZ"
+- "Average-TimeBodyAccJerkMeanX"
+- "Average-TimeBodyAccJerkMeanY"
+- "Average-TimeBodyAccJerkMeanZ"
+- "Average-TimeBodyAccJerkStdDevX"
+- "Average-TimeBodyAccJerkStdDevY"
+- "Average-TimeBodyAccJerkStdDevZ"
+- "Average-TimeBodyGyroMeanX"
+- "Average-TimeBodyGyroMeanY"
+- "Average-TimeBodyGyroMeanZ"
+- "Average-TimeBodyGyroStdDevX"
+- "Average-TimeBodyGyroStdDevY"
+- "Average-TimeBodyGyroStdDevZ"
+- "Average-TimeBodyGyroJerkMeanX"
+- "Average-TimeBodyGyroJerkMeanY"
+- "Average-TimeBodyGyroJerkMeanZ"
+- "Average-TimeBodyGyroJerkStdDevX"
+- "Average-TimeBodyGyroJerkStdDevY"
+- "Average-TimeBodyGyroJerkStdDevZ"
 "33" "Average-TimeBodyAccMagMean"
 "34" "Average-TimeBodyAccMagStdDev"
 "35" "Average-TimeGravityAccMagMean"
