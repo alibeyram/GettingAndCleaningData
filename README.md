@@ -23,3 +23,4 @@ Steps to reproduce this project
 1. Download all the files and unzip it.
 2. Set the working directory to the dicrectory with unziped files
 3. Run eigther of run.Rmd (Markdown file) or the script run_analysis.R 
+4. For more information about the script please read the run.Rmd which guide you through the code.
