@@ -20,6 +20,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Steps to reproduce this project
 ---------------------------------
 
-1- Download all the files and unzip it.
-2- Set the working directory to the dicrectory with unziped files
-3- Run eigther of run.Rmd (Markdown file) or the script run_analysis.R 
+1. Download all the files and unzip it.
+2. Set the working directory to the dicrectory with unziped files
+3. Run eigther of run.Rmd (Markdown file) or the script run_analysis.R 
