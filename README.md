@@ -23,4 +23,4 @@ From the data set in step 4, creates a second, independent tidy data set with th
 Good luck!
 
 
-For reproducing run the run_analysis.R  or look at run.Rmd for detail and decreption 
+**For reproducing run the run_analysis.R  or look at run.Rmd for detail and decreption**
